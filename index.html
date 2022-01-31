@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>image map</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <div class="tasks">
+    <a href="examplePrint.html">GO TO STYLE MEDIA EXAMPLE</a>
+    <a href="#">GO TO PICTURE TAG EXAMPLE</a>
+  </div>
+  <h1>Monty Hall</h1>
+  <p>You are given the choice of 3 doors.</p>
+  <p>Behind one door is a car.</p>
+  <p>Behind the others, goats.</p>
+  <p>When you choose your door. I will reveal the contents behind one of the other two doors.</p>
+  <p>You will then choose between your original door or switch to another door.</p>
+  <h2>Make your choice.</h2>
+  <img id="img" src="images/frame-000-000.png" alt="#" usemap="#image-map" />
+  <map name="image-map">
+    <area class="door" alt="Door A" title="Door A" coords="16,64,80,192" shape="rect">
+    <area class="door" alt="Door B" title="Door B" coords="96,64,160,192" shape="rect">
+    <area class="door" alt="Door C" title="Door C" coords="176,64,240,192" shape="rect">
+  </map>
+  <h2 id="wins">Cars won: 0</h2>
+  <h2 id="losses">Goats won: 0</h2>
+  <p>
+    <button id="replay">REPLAY</button>
+    <button id="reset">RESET</button>
+  </p>
+  <script src="js/index.js"></script>
+</body>
+</html>

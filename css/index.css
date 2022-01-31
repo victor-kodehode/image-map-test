@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+#a,#b,#c {
+  cursor: pointer;
+}
+#wins {
+  color: green;
+}
+#losses {
+  color: red;
+}
+#replay, #reset {
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#replay {
+  background-color: green;
+}
+#reset {
+  background-color: red;
+}
+.door {
+  cursor: pointer;
+}
+.tasks {
+  display: flex;
+  justify-content: space-evenly;
+}

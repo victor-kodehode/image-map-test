@@ -1,0 +1,11 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+}
