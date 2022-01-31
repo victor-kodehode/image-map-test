@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>picture tag</title>
+</head>
+<body>
+  <div class="nav">
+    <a href="index.html">GO TO IMAGE MAP EXAMPLE</a>
+    <a href="examplePrint.html">GO TO PRINT EXAMPLE</a>
+  </div>
+  <h1>Picture Tag Example</h1>
+  <h2>Try resizing window.</h2>
+  <picture>
+    <source media="(min-width:1000px)" srcset="images/pic1000.png" />
+    <source media="(min-width:900px)" srcset="images/pic900.png" />
+    <source media="(min-width:800px)" srcset="images/pic800.png" />
+    <source media="(min-width:700px)" srcset="images/pic700.png" />
+    <source media="(min-width:600px)" srcset="images/pic600.png" />
+    <source media="(min-width:500px)" srcset="images/pic500.png" />
+    <source media="(min-width:400px)" srcset="images/pic400.png" />
+    <source media="(min-width:300px)" srcset="images/pic300.png" />
+    <img src="images/pic200.png" />
+  </picture>
+</body>
+</html>
